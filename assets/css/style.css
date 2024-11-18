@@ -4,13 +4,19 @@
 }
 
 body{
-	font-family: "CompagnonLight";
+	font-family: "Rubik Puddles", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
 }
 
 .container{
-
+	display: grid;
+	grid-template-rows: 200px 200px 200px 200px 200px 200px;
+	grid-template-columns: 200px 200px 200px 200px 200px 200px;
 }
 
-.item{
-	
+.item1{
+	width: 200px;
+	height: 120px;
 }
+
