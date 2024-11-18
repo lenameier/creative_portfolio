@@ -5,7 +5,7 @@
 
 body{
 	font-family: "CompoundryVF12"
-	font-size: 90pt;
+
 }
 
 .container{
@@ -15,7 +15,11 @@ body{
 	grid-gab: 2em;
 }
 
-h1{	font-size: 90pt;
+h1{	margin: 20vw;
+   	justify: center;
+   	font-size: 80pt;
+   	color: blue;
+   	
 	
 	
 }
