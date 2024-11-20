@@ -12,19 +12,19 @@ body{
 	display: grid;
 	grid-template-rows: 200px 200px 200px 200px 200px 200px;
 	grid-template-columns: 200px 200px 200px 200px 200px 200px;
-	grid-gab: 2em;
+	grid-gab: 3em;
 }
 
 h1{	margin: 20vw;
    	justify: center;
    	font-size: 80pt;
-   	color: blue;
-   	
-	
+   	color: lightgreen;
+   		
 	
 }
 
-.item-1{
-	width: 0,5vw;
+.img {
+	width: 200px;
+	height: auto;
 }
 
