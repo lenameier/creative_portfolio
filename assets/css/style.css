@@ -23,7 +23,8 @@ h1{	margin: 20vw;
 	
 }
 
-.item-1 {
+.image-container {
+	display: grid;
 	width: 200px;
 	height: auto;
 }
