@@ -24,7 +24,7 @@ h1{	margin: 20vw;
 	
 }
 
-.bild-container img {
+img {
   	width: 200px;            /* Festgelegte Breite */
   	height: auto;
 }
