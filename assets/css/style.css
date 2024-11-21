@@ -5,6 +5,13 @@
 
 body{
 	font-family: "CompoundryVF12";
+	display: grid;
+	width: 100%;
+	display: grid;
+	flex-wrap: wrap;
+	grid-template-rows: repeat (6, 200px);
+	grid-template-columns: repeat (6, 200px);
+	grid-gap: 3em;
 	height: 100vh;
 	margin: 0;
 	background-image: radial-gradient (circle, #a8d4b5, #62b0b0);
@@ -12,16 +19,13 @@ body{
 	}
 
 .container{
-	width: 100%;
-	background-image: radial-gradient (circle, #a8d4b5, #62b0b0);
-	display: grid;
-	flex-wrap: wrap;
-	grid-template-rows: repeat (6, 200px);
-	grid-template-columns: repeat (6, 200px);
-	grid-gap: 3em;
+
+	
 }
 
-h1{	margin: 5vw;
+h1{	
+	grid-column: 1, 4;
+	margin: 5vw;
 
    	align-content: center;
    	font-size: 80pt;
