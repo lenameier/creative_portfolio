@@ -5,12 +5,22 @@
 
 body{
 	font-family: "CompoundryVF12";
-	display: grid;
 	width: 100vw;
 	margin: 0;
-	background: radial-gradient (circle, #a8d4b5, #62b0b0);
+	background-image: radial-gradient (circle, #a8d4b5, #62b0b0);
 
 	}
+
+	h1{	
+		grid-column: 1, 4;
+		margin: 5vw;
+	
+		   align-content: center;
+		   font-size: 80pt;
+		   color: lightgreen;
+		
+	}
+
 
 .container{
 	display: grid;
@@ -18,32 +28,24 @@ body{
 	grid-template-rows: repeat (6, 200px);
 	grid-template-columns: repeat (6, 200px);
 	grid-gap: 5em;
-	
-
-}
-
-h1{	
-	grid-column: 1, 4;
-	margin: 5vw;
-
-   	align-content: center;
-   	font-size: 80pt;
-   	color: lightgreen;
+	background-image: radial-gradient (circle, #a8d4b5, #62b0b0);
 	
 }
+
+
 
 h2 {
 
 	margin-left: 5vw;
     font-size: 24px;
-
+	writing-mode: vertical-rl;
 
 
 }
 
-img {
+.image-container {
 	grid-row-start: 2;
-  	width: 200px;            /* Festgelegte Breite */
+  	width: 200px;
   	height: auto;
 }
 
