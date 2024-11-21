@@ -24,8 +24,8 @@ body{
 
 .container{
 	display: grid;
-	grid-template-rows: repeat(5, 200px);
-	grid-template-columns: repeat(5, 200px);
+	grid-template-rows: repeat(8, 200px);
+	grid-template-columns: repeat(8, 200px);
 	background-image: radial-gradient (circle, #a8d4b5, #62b0b0);
 	
 	
