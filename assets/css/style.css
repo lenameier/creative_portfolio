@@ -7,6 +7,7 @@ body{
 	font-family: "CompoundryVF12"
 	height: 100vh;
 	margin: 0;
+	background-image: radial-gradient (circle, #a8d4b5, #62b0b0);
 	}
 
 .container{
