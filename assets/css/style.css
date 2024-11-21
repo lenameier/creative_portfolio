@@ -22,6 +22,7 @@ body{
 }
 
 h1{	margin: 5vw;
+
    	align-content: center;
    	font-size: 80pt;
    	color: lightgreen;
@@ -31,13 +32,12 @@ h1{	margin: 5vw;
 h2 {
 
 	margin-left: 5vw;
-	display: inline-block;  /* Notwendig, damit `transform` funktioniert */
-    transform: rotate(90deg);  /* Dreht das Wort um 90 Grad */
     font-size: 24px;
 
 }
 
 img {
+	grid-row-start: 2;
   	width: 200px;            /* Festgelegte Breite */
   	height: auto;
 }
