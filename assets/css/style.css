@@ -23,7 +23,7 @@ body{
 
 
 .container{
-	display: grid;
+	display: flex;
 	flex-wrap: wrap;
 	grid-template-rows: repeat (6, 200px);
 	grid-template-columns: repeat (6, 200px);
@@ -44,7 +44,7 @@ h2 {
 }
 
 .image-container {
-	grid-row-start: 2;
+	
   	width: 200px;
   	height: auto;
 }
