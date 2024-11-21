@@ -14,14 +14,11 @@ body{
 	grid-gap: 3em;
 	height: 100vh;
 	margin: 0;
-	background-image: radial-gradient (circle, #a8d4b5, #62b0b0);
+	background: radial-gradient (circle, #a8d4b5, #62b0b0);
 
 	}
 
-.container{
 
-	
-}
 
 h1{	
 	grid-column: 1, 4;
