@@ -5,11 +5,16 @@
 
 body{
 	font-family: "CompoundryVF12"
+	height: 100vh;
+	margin: 0;
+	display: grid;
+	background: radial-gradient (circle, #a8d4b5, #62b0b0);
 
 }
 
 .container{
 	width: 100%;
+	
 	display: grid;
 	flex-wrap: wrap;
 	grid-template-rows: repeat (4, 2fr)
@@ -17,11 +22,17 @@ body{
 	grid-gab: 3em;
 }
 
-h1{	margin: 20vw;
+h1{	margin: 5vw;
    	justify: center;
    	font-size: 80pt;
    	color: lightgreen;
 	
+}
+
+h2 {
+
+	margin: 1em;
+
 }
 
 img {
