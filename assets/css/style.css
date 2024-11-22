@@ -28,7 +28,7 @@ body{
 	grid-template-rows: repeat(8, 200px);
 	grid-template-columns: repeat(8, 200px);
 	grid-gap: 1em;
-	writing-mode: vertical-lr;
+	/*writing-mode: vertical-lr;*/
 
 	h1{	
 		grid-column: 1, 4;
@@ -57,7 +57,7 @@ h2 {
 
 .image-container1 {
 	
-	grid-area: 1 / 2 / 2 / 3;
+	grid-area: 3 / 2 / 4 / 3;
   	width: 200px;
   	height: 105px;
 	margin: 0;
