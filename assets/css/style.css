@@ -32,6 +32,8 @@ h1 {
 
 h2 {
     margin: 0 20px 0 0;
+	width: 100px;
+	height: 260px;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     color: #ffffff;
